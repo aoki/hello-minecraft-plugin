@@ -1,0 +1,6 @@
+name: Hello
+version: @version@
+main: com.ringohub.minecraft.hello.Hello
+prefix: Hello
+authors: [aoki]
+description: Hello Minecraft plugin
