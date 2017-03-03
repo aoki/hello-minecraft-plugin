@@ -7,11 +7,13 @@ public final class Hello extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        this.getServer().getPluginManager().registerEvents(this, this);
+        System.out.println("Hello World!!");
+//        this.getServer().getPluginManager().registerEvents(this, this);
     }
 
     @Override
     public void onDisable() {
+        System.out.println("Good Bye World!!");
         // Plugin shutdown logic
     }
 }
